@@ -1,0 +1,17 @@
+.element__trash {
+    background-image: url(../../../image/корзина.svg);
+    background-color: transparent;
+    padding: 0;
+    width: 18px;
+    height: 19px;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.element__trash:hover {
+    opacity: 0.6;
+}

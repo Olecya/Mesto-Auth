@@ -1,0 +1,7 @@
+.profile__avatar-box {
+    max-width: 120px;
+    min-height: 120px;
+    margin: 0 auto;
+    padding-right: 30px;
+    position: relative;
+}

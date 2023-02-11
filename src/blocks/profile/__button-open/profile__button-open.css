@@ -1,0 +1,26 @@
+.profile__button-open {
+    margin: auto 0;
+    padding: 0px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../image/карандаш.svg);
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px 10px;
+    cursor: pointer;
+}
+.profile__button-open:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 580px) {
+    .profile__button-open {
+        margin: 33px 0 0;
+        width: 18px;
+        height: 18px;
+        background-size: 7px 7px;
+    }
+}

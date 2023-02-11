@@ -1,0 +1,9 @@
+.profile__name {
+    display:flex;
+    gap: 18px;
+}
+@media screen and (max-width: 580px) {
+    .profile__name {
+        gap: 10px;
+}
+}

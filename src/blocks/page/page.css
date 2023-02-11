@@ -1,0 +1,11 @@
+.page {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    /* max-width: 1280px;
+    min-width: 320px; */
+    background-color: rgba(0, 0, 0, 1);
+    margin: auto;
+    color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+}     
