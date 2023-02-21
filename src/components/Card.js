@@ -16,7 +16,7 @@ export const Card = (props) => {
         `element__like ${isLiked && 'element__like_aktiv'}`
     );
 
-    // console.log(likes);
+    // console.log(currentUser);
     return (
         <article className="element">
             {isOwn && <button className="element__trash" aria-label="trash" onClick={() => onCardDelete(card)} />}

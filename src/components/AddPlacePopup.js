@@ -14,8 +14,7 @@ export const AddPlacePopup = (props) => {
 
     function handleSubmit(e) {
         e.preventDefault();
-
-        props.onAddPlace({
+        onAddPlace({
             name: name,
             link: link
         });
@@ -27,7 +26,7 @@ export const AddPlacePopup = (props) => {
             isOpen={isOpen}
             onClose={onClose}
             onSubmit={handleSubmit}
-            onAddPlace={onAddPlace}
+            // onAddPlace={onAddPlace}
             name="popup-card"
             title="Новое место"
             buttonText="Создать"

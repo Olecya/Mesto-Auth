@@ -1,0 +1,13 @@
+.header__mail-but {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #FFFFFF;
+    text-decoration: none;
+    /* color: #A9A9A9; */
+}
+
+.header__mail-but:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}

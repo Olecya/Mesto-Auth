@@ -17,7 +17,7 @@ export const EditProfilePopup = (props) => {
 
     function handleSubmit(e) {
         e.preventDefault();
-        props.onUpdateUser({
+        onUpdateUser({
             name: name,
             about: about
         });
@@ -28,7 +28,7 @@ export const EditProfilePopup = (props) => {
             isOpen={isOpen}
             onClose={onClose}
             onSubmit={handleSubmit}
-            onUpdateUser={onUpdateUser}
+            // onUpdateUser={onUpdateUser}
             name="popupProfile"
             title="Редактировать профиль"
         >

@@ -1,0 +1,10 @@
+.registration__link-in {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.registration__link-in:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
